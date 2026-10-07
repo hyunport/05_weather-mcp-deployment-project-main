@@ -6,6 +6,6 @@ services:
       context: ..
       dockerfile: deploy/Dockerfile
     env_file:
-      - ../config/.env.docker
+      - ../.env.docker
     ports:
       - "8501:8501"

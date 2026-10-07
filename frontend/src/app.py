@@ -14,7 +14,7 @@ load_dotenv(Path(__file__).resolve().parents[1] / "config" / ".env")
 
 BACKEND_URL = os.getenv("BACKEND_URL", "http://127.0.0.1:8000")
 st.set_page_config(page_title="Weather MCP Agent", page_icon="🌦️", layout="wide")
-st.sidebar.title("학습 메뉴")
+st.sidebar.title("학습 메뉴 jmlee2222")
 page = st.sidebar.radio("이동", ["Weather Agent", "구조 이해", "Health Check"])
 st.title("Weather MCP Deployment Project OK")
 

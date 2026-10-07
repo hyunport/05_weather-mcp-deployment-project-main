@@ -5,8 +5,14 @@ Backend만 Docker 내부 주소 weather-mcp:8010으로 접근하며 Host에는 8
 도시를 좌표로 변환한 뒤 오늘 또는 내일의 최고·최저 기온과 강수 확률을 반환합니다.
 """
 
+
+
+
 import os
 from pathlib import Path
+
+
+
 
 import httpx
 from mcp.server.fastmcp import FastMCP
